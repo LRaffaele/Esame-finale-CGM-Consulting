@@ -9,7 +9,9 @@ film_id, title, description, release_year, language_name
 4. @GetMapping("/count-customers-by-store/{storeName}") -->
 CustomerStoreResponse: store_name, total_customers (N.B. sono da
 considerare 'clienti' di un determinato store tutti quelli che hanno
-effettuato almeno un noleggio).5. @PutMapping("/add-update-rental") add: inserimento rental; update:
+effettuato almeno un noleggio).
+
+5. @PutMapping("/add-update-rental") add: inserimento rental; update:
 aggiornamento solo della data restituzione (rental_return). In questo
 caso non vi sono suggerimenti sui parametri da passare al controller. N.B.
 Il film è noleggiabile solo se almeno una copia è presente in uno store e
